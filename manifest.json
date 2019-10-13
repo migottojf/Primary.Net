@@ -1,0 +1,308 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/primary-net/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Api.html",
+          "hash": "gtAAbeMCxed4LiYlnere3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Entry.html",
+          "hash": "QXmQ2zVqQWjfpegsZNbUuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Instrument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Instrument.html",
+          "hash": "rZYzCDPxhOpl80OBLwOQ5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.MarketData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.MarketData.html",
+          "hash": "RcPPUFZG4i+QwDLxdrYV6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Order.html",
+          "hash": "77GDfbqFalHn7dGg1m7AvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Orders.OrderExpiration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Orders.OrderExpiration.html",
+          "hash": "3tkIhuPPPLiv9wgbDieP5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Orders.OrderId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Orders.OrderId.html",
+          "hash": "BNn2C2Gv3JxXHUPfcT7jIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Orders.OrderSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Orders.OrderSide.html",
+          "hash": "3fjSWY6sRsDZ/FyVWW0xJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Orders.OrderStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Orders.OrderStatus.html",
+          "hash": "JbupL/nHjPqg5C7h49Aiaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Orders.OrderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Orders.OrderType.html",
+          "hash": "Umm4NjMyASupeGpC/vZPdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Orders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Orders.html",
+          "hash": "qIpssaQe9wQ9OY5BbQzqqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.Trade.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.Trade.html",
+          "hash": "sgWNkJbKwKhAzt5EG/5CNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.html",
+          "hash": "eosqaxImWrzwzK5YZx+aCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.MarketDataWebSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.MarketDataWebSocket.html",
+          "hash": "M2BaGZYXVepXHWxaW+fQzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Primary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.html",
+          "hash": "7Z6+bOFA/3em2PJ7nYwyDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "6UeY7tnibHu44zBOxfCePw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "jkkWlZuUhuDvb2VP+M/K/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "yKNAxA0Dy6MikmtVDHqqRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sdTAWlaVlcsoa9Lk2qxzew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
