@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Api.html",
-          "hash": "gtAAbeMCxed4LiYlnere3A=="
+          "hash": "cNZ8POyq46BmTFpnYWguzQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Entry.html",
-          "hash": "QXmQ2zVqQWjfpegsZNbUuA=="
+          "hash": "bWzZFlbFzepbQa93SdXegw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Instrument.html",
-          "hash": "rZYzCDPxhOpl80OBLwOQ5A=="
+          "hash": "uFC6gPMfrqHySmbwezmP0g=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.MarketData.html",
-          "hash": "RcPPUFZG4i+QwDLxdrYV6w=="
+          "hash": "w36xp2WGxfeO0YnaRmVfXQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Order.html",
-          "hash": "77GDfbqFalHn7dGg1m7AvA=="
+          "hash": "PWhJ2gVRrdpw7J+x+6zaeQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Orders.OrderExpiration.html",
-          "hash": "3tkIhuPPPLiv9wgbDieP5Q=="
+          "hash": "1SV5ZQflzckjdYizj/88nw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Orders.OrderId.html",
-          "hash": "BNn2C2Gv3JxXHUPfcT7jIQ=="
+          "hash": "btGUkCfRogJ0KkPzV7Qz1A=="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Orders.OrderSide.html",
-          "hash": "3fjSWY6sRsDZ/FyVWW0xJg=="
+          "hash": "02pyE5dye5RT9raqoxza0w=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Orders.OrderStatus.html",
-          "hash": "JbupL/nHjPqg5C7h49Aiaw=="
+          "hash": "NNwndQEvKLtkzC2cXi6vog=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Orders.OrderType.html",
-          "hash": "Umm4NjMyASupeGpC/vZPdA=="
+          "hash": "8a3ZrR91N3cpLxP8ViX6xQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.Trade.html",
-          "hash": "sgWNkJbKwKhAzt5EG/5CNg=="
+          "hash": "UMGNo8MD6Mmij6+rdygkSg=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.MarketDataWebSocket.html",
-          "hash": "M2BaGZYXVepXHWxaW+fQzg=="
+          "hash": "QXqiQDcU/+bXeRtffvYUug=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "6UeY7tnibHu44zBOxfCePw=="
+          "hash": "Q7SbH4fcMGXy9tKBDdGqQA=="
         }
       },
       "is_incremental": false,
@@ -209,35 +209,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "yKNAxA0Dy6MikmtVDHqqRw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "E9LiXGlvQqW3C/93Zn1EFw=="
+          "hash": "ojjhG3WsTlaE1q2bDaLH2w=="
         }
       },
       "is_incremental": false,
@@ -267,23 +243,23 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 15,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 3,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 15,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
