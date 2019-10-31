@@ -61,6 +61,15 @@ references:
   fullName.vb: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable(Of Primary.Data.Instrument), System.Collections.Generic.IEnumerable(Of Primary.Data.Entry), System.UInt32, System.UInt32)
   nameWithType: Api.CreateSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32)
   nameWithType.vb: Api.CreateSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32)
+- uid: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32,System.Threading.CancellationToken)
+  name: CreateSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32, CancellationToken)
+  href: api/Primary.Api.html#Primary_Api_CreateSocket_System_Collections_Generic_IEnumerable_Primary_Data_Instrument__System_Collections_Generic_IEnumerable_Primary_Data_Entry__System_UInt32_System_UInt32_System_Threading_CancellationToken_
+  commentId: M:Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32,System.Threading.CancellationToken)
+  name.vb: CreateSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32, CancellationToken)
+  fullName: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable<Primary.Data.Instrument>, System.Collections.Generic.IEnumerable<Primary.Data.Entry>, System.UInt32, System.UInt32, System.Threading.CancellationToken)
+  fullName.vb: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable(Of Primary.Data.Instrument), System.Collections.Generic.IEnumerable(Of Primary.Data.Entry), System.UInt32, System.UInt32, System.Threading.CancellationToken)
+  nameWithType: Api.CreateSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32, CancellationToken)
+  nameWithType.vb: Api.CreateSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32, CancellationToken)
 - uid: Primary.Api.CreateSocket*
   name: CreateSocket
   href: api/Primary.Api.html#Primary_Api_CreateSocket_
@@ -749,19 +758,19 @@ references:
   commentId: T:Primary.MarketDataWebSocket
   fullName: Primary.MarketDataWebSocket
   nameWithType: MarketDataWebSocket
-- uid: Primary.MarketDataWebSocket.Cancel
-  name: Cancel()
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_Cancel
-  commentId: M:Primary.MarketDataWebSocket.Cancel
-  fullName: Primary.MarketDataWebSocket.Cancel()
-  nameWithType: MarketDataWebSocket.Cancel()
-- uid: Primary.MarketDataWebSocket.Cancel*
-  name: Cancel
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_Cancel_
-  commentId: Overload:Primary.MarketDataWebSocket.Cancel
+- uid: Primary.MarketDataWebSocket.CancelToken
+  name: CancelToken
+  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_CancelToken
+  commentId: P:Primary.MarketDataWebSocket.CancelToken
+  fullName: Primary.MarketDataWebSocket.CancelToken
+  nameWithType: MarketDataWebSocket.CancelToken
+- uid: Primary.MarketDataWebSocket.CancelToken*
+  name: CancelToken
+  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_CancelToken_
+  commentId: Overload:Primary.MarketDataWebSocket.CancelToken
   isSpec: "True"
-  fullName: Primary.MarketDataWebSocket.Cancel
-  nameWithType: MarketDataWebSocket.Cancel
+  fullName: Primary.MarketDataWebSocket.CancelToken
+  nameWithType: MarketDataWebSocket.CancelToken
 - uid: Primary.MarketDataWebSocket.Dispose
   name: Dispose()
   href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_Dispose
