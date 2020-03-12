@@ -52,31 +52,56 @@ references:
   isSpec: "True"
   fullName: Primary.Api.CancelOrder
   nameWithType: Api.CancelOrder
-- uid: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32)
-  name: CreateSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32)
-  href: api/Primary.Api.html#Primary_Api_CreateSocket_System_Collections_Generic_IEnumerable_Primary_Data_Instrument__System_Collections_Generic_IEnumerable_Primary_Data_Entry__System_UInt32_System_UInt32_
-  commentId: M:Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32)
-  name.vb: CreateSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32)
-  fullName: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable<Primary.Data.Instrument>, System.Collections.Generic.IEnumerable<Primary.Data.Entry>, System.UInt32, System.UInt32)
-  fullName.vb: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable(Of Primary.Data.Instrument), System.Collections.Generic.IEnumerable(Of Primary.Data.Entry), System.UInt32, System.UInt32)
-  nameWithType: Api.CreateSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32)
-  nameWithType.vb: Api.CreateSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32)
-- uid: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32,System.Threading.CancellationToken)
-  name: CreateSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32, CancellationToken)
-  href: api/Primary.Api.html#Primary_Api_CreateSocket_System_Collections_Generic_IEnumerable_Primary_Data_Instrument__System_Collections_Generic_IEnumerable_Primary_Data_Entry__System_UInt32_System_UInt32_System_Threading_CancellationToken_
-  commentId: M:Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32,System.Threading.CancellationToken)
-  name.vb: CreateSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32, CancellationToken)
-  fullName: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable<Primary.Data.Instrument>, System.Collections.Generic.IEnumerable<Primary.Data.Entry>, System.UInt32, System.UInt32, System.Threading.CancellationToken)
-  fullName.vb: Primary.Api.CreateSocket(System.Collections.Generic.IEnumerable(Of Primary.Data.Instrument), System.Collections.Generic.IEnumerable(Of Primary.Data.Entry), System.UInt32, System.UInt32, System.Threading.CancellationToken)
-  nameWithType: Api.CreateSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32, CancellationToken)
-  nameWithType.vb: Api.CreateSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32, CancellationToken)
-- uid: Primary.Api.CreateSocket*
-  name: CreateSocket
-  href: api/Primary.Api.html#Primary_Api_CreateSocket_
-  commentId: Overload:Primary.Api.CreateSocket
+- uid: Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32)
+  name: CreateMarketDataSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32)
+  href: api/Primary.Api.html#Primary_Api_CreateMarketDataSocket_System_Collections_Generic_IEnumerable_Primary_Data_Instrument__System_Collections_Generic_IEnumerable_Primary_Data_Entry__System_UInt32_System_UInt32_
+  commentId: M:Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32)
+  name.vb: CreateMarketDataSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32)
+  fullName: Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable<Primary.Data.Instrument>, System.Collections.Generic.IEnumerable<Primary.Data.Entry>, System.UInt32, System.UInt32)
+  fullName.vb: Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable(Of Primary.Data.Instrument), System.Collections.Generic.IEnumerable(Of Primary.Data.Entry), System.UInt32, System.UInt32)
+  nameWithType: Api.CreateMarketDataSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32)
+  nameWithType.vb: Api.CreateMarketDataSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32)
+- uid: Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32,System.Threading.CancellationToken)
+  name: CreateMarketDataSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32, CancellationToken)
+  href: api/Primary.Api.html#Primary_Api_CreateMarketDataSocket_System_Collections_Generic_IEnumerable_Primary_Data_Instrument__System_Collections_Generic_IEnumerable_Primary_Data_Entry__System_UInt32_System_UInt32_System_Threading_CancellationToken_
+  commentId: M:Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable{Primary.Data.Instrument},System.Collections.Generic.IEnumerable{Primary.Data.Entry},System.UInt32,System.UInt32,System.Threading.CancellationToken)
+  name.vb: CreateMarketDataSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32, CancellationToken)
+  fullName: Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable<Primary.Data.Instrument>, System.Collections.Generic.IEnumerable<Primary.Data.Entry>, System.UInt32, System.UInt32, System.Threading.CancellationToken)
+  fullName.vb: Primary.Api.CreateMarketDataSocket(System.Collections.Generic.IEnumerable(Of Primary.Data.Instrument), System.Collections.Generic.IEnumerable(Of Primary.Data.Entry), System.UInt32, System.UInt32, System.Threading.CancellationToken)
+  nameWithType: Api.CreateMarketDataSocket(IEnumerable<Instrument>, IEnumerable<Entry>, UInt32, UInt32, CancellationToken)
+  nameWithType.vb: Api.CreateMarketDataSocket(IEnumerable(Of Instrument), IEnumerable(Of Entry), UInt32, UInt32, CancellationToken)
+- uid: Primary.Api.CreateMarketDataSocket*
+  name: CreateMarketDataSocket
+  href: api/Primary.Api.html#Primary_Api_CreateMarketDataSocket_
+  commentId: Overload:Primary.Api.CreateMarketDataSocket
   isSpec: "True"
-  fullName: Primary.Api.CreateSocket
-  nameWithType: Api.CreateSocket
+  fullName: Primary.Api.CreateMarketDataSocket
+  nameWithType: Api.CreateMarketDataSocket
+- uid: Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable{System.String})
+  name: CreateOrderDataSocket(IEnumerable<String>)
+  href: api/Primary.Api.html#Primary_Api_CreateOrderDataSocket_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: CreateOrderDataSocket(IEnumerable(Of String))
+  fullName: Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: Api.CreateOrderDataSocket(IEnumerable<String>)
+  nameWithType.vb: Api.CreateOrderDataSocket(IEnumerable(Of String))
+- uid: Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name: CreateOrderDataSocket(IEnumerable<String>, CancellationToken)
+  href: api/Primary.Api.html#Primary_Api_CreateOrderDataSocket_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_
+  commentId: M:Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)
+  name.vb: CreateOrderDataSocket(IEnumerable(Of String), CancellationToken)
+  fullName: Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable<System.String>, System.Threading.CancellationToken)
+  fullName.vb: Primary.Api.CreateOrderDataSocket(System.Collections.Generic.IEnumerable(Of System.String), System.Threading.CancellationToken)
+  nameWithType: Api.CreateOrderDataSocket(IEnumerable<String>, CancellationToken)
+  nameWithType.vb: Api.CreateOrderDataSocket(IEnumerable(Of String), CancellationToken)
+- uid: Primary.Api.CreateOrderDataSocket*
+  name: CreateOrderDataSocket
+  href: api/Primary.Api.html#Primary_Api_CreateOrderDataSocket_
+  commentId: Overload:Primary.Api.CreateOrderDataSocket
+  isSpec: "True"
+  fullName: Primary.Api.CreateOrderDataSocket
+  nameWithType: Api.CreateOrderDataSocket
 - uid: Primary.Api.DemoAccount
   name: DemoAccount
   href: api/Primary.Api.html#Primary_Api_DemoAccount
@@ -340,19 +365,49 @@ references:
   isSpec: "True"
   fullName: Primary.Data.MarketData.Instrument
   nameWithType: MarketData.Instrument
-- uid: Primary.Data.MarketData.Timestamp
-  name: Timestamp
-  href: api/Primary.Data.MarketData.html#Primary_Data_MarketData_Timestamp
-  commentId: P:Primary.Data.MarketData.Timestamp
-  fullName: Primary.Data.MarketData.Timestamp
-  nameWithType: MarketData.Timestamp
-- uid: Primary.Data.MarketData.Timestamp*
-  name: Timestamp
-  href: api/Primary.Data.MarketData.html#Primary_Data_MarketData_Timestamp_
-  commentId: Overload:Primary.Data.MarketData.Timestamp
+- uid: Primary.Data.MarketDataInfo
+  name: MarketDataInfo
+  href: api/Primary.Data.MarketDataInfo.html
+  commentId: T:Primary.Data.MarketDataInfo
+  fullName: Primary.Data.MarketDataInfo
+  nameWithType: MarketDataInfo
+- uid: Primary.Data.MarketDataInfo.Depth
+  name: Depth
+  href: api/Primary.Data.MarketDataInfo.html#Primary_Data_MarketDataInfo_Depth
+  commentId: F:Primary.Data.MarketDataInfo.Depth
+  fullName: Primary.Data.MarketDataInfo.Depth
+  nameWithType: MarketDataInfo.Depth
+- uid: Primary.Data.MarketDataInfo.Entries
+  name: Entries
+  href: api/Primary.Data.MarketDataInfo.html#Primary_Data_MarketDataInfo_Entries
+  commentId: F:Primary.Data.MarketDataInfo.Entries
+  fullName: Primary.Data.MarketDataInfo.Entries
+  nameWithType: MarketDataInfo.Entries
+- uid: Primary.Data.MarketDataInfo.Level
+  name: Level
+  href: api/Primary.Data.MarketDataInfo.html#Primary_Data_MarketDataInfo_Level
+  commentId: F:Primary.Data.MarketDataInfo.Level
+  fullName: Primary.Data.MarketDataInfo.Level
+  nameWithType: MarketDataInfo.Level
+- uid: Primary.Data.MarketDataInfo.Products
+  name: Products
+  href: api/Primary.Data.MarketDataInfo.html#Primary_Data_MarketDataInfo_Products
+  commentId: F:Primary.Data.MarketDataInfo.Products
+  fullName: Primary.Data.MarketDataInfo.Products
+  nameWithType: MarketDataInfo.Products
+- uid: Primary.Data.MarketDataInfo.Type
+  name: Type
+  href: api/Primary.Data.MarketDataInfo.html#Primary_Data_MarketDataInfo_Type
+  commentId: P:Primary.Data.MarketDataInfo.Type
+  fullName: Primary.Data.MarketDataInfo.Type
+  nameWithType: MarketDataInfo.Type
+- uid: Primary.Data.MarketDataInfo.Type*
+  name: Type
+  href: api/Primary.Data.MarketDataInfo.html#Primary_Data_MarketDataInfo_Type_
+  commentId: Overload:Primary.Data.MarketDataInfo.Type
   isSpec: "True"
-  fullName: Primary.Data.MarketData.Timestamp
-  nameWithType: MarketData.Timestamp
+  fullName: Primary.Data.MarketDataInfo.Type
+  nameWithType: MarketDataInfo.Type
 - uid: Primary.Data.Order
   name: Order
   href: api/Primary.Data.Order.html
@@ -528,19 +583,6 @@ references:
   isSpec: "True"
   fullName: Primary.Data.Order.StatusText
   nameWithType: Order.StatusText
-- uid: Primary.Data.Order.Symbol
-  name: Symbol
-  href: api/Primary.Data.Order.html#Primary_Data_Order_Symbol
-  commentId: P:Primary.Data.Order.Symbol
-  fullName: Primary.Data.Order.Symbol
-  nameWithType: Order.Symbol
-- uid: Primary.Data.Order.Symbol*
-  name: Symbol
-  href: api/Primary.Data.Order.html#Primary_Data_Order_Symbol_
-  commentId: Overload:Primary.Data.Order.Symbol
-  isSpec: "True"
-  fullName: Primary.Data.Order.Symbol
-  nameWithType: Order.Symbol
 - uid: Primary.Data.Order.Type
   name: Type
   href: api/Primary.Data.Order.html#Primary_Data_Order_Type
@@ -560,6 +602,161 @@ references:
   commentId: N:Primary.Data.Orders
   fullName: Primary.Data.Orders
   nameWithType: Primary.Data.Orders
+- uid: Primary.Data.Orders.OrderData
+  name: OrderData
+  href: api/Primary.Data.Orders.OrderData.html
+  commentId: T:Primary.Data.Orders.OrderData
+  fullName: Primary.Data.Orders.OrderData
+  nameWithType: OrderData
+- uid: Primary.Data.Orders.OrderData.Account
+  name: Account
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_Account
+  commentId: P:Primary.Data.Orders.OrderData.Account
+  fullName: Primary.Data.Orders.OrderData.Account
+  nameWithType: OrderData.Account
+- uid: Primary.Data.Orders.OrderData.Account*
+  name: Account
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_Account_
+  commentId: Overload:Primary.Data.Orders.OrderData.Account
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.Account
+  nameWithType: OrderData.Account
+- uid: Primary.Data.Orders.OrderData.AccountId
+  name: OrderData.AccountId
+  href: api/Primary.Data.Orders.OrderData.AccountId.html
+  commentId: T:Primary.Data.Orders.OrderData.AccountId
+  fullName: Primary.Data.Orders.OrderData.AccountId
+  nameWithType: OrderData.AccountId
+- uid: Primary.Data.Orders.OrderData.AccountId.Id
+  name: Id
+  href: api/Primary.Data.Orders.OrderData.AccountId.html#Primary_Data_Orders_OrderData_AccountId_Id
+  commentId: P:Primary.Data.Orders.OrderData.AccountId.Id
+  fullName: Primary.Data.Orders.OrderData.AccountId.Id
+  nameWithType: OrderData.AccountId.Id
+- uid: Primary.Data.Orders.OrderData.AccountId.Id*
+  name: Id
+  href: api/Primary.Data.Orders.OrderData.AccountId.html#Primary_Data_Orders_OrderData_AccountId_Id_
+  commentId: Overload:Primary.Data.Orders.OrderData.AccountId.Id
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.AccountId.Id
+  nameWithType: OrderData.AccountId.Id
+- uid: Primary.Data.Orders.OrderData.AveragePrice
+  name: AveragePrice
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_AveragePrice
+  commentId: P:Primary.Data.Orders.OrderData.AveragePrice
+  fullName: Primary.Data.Orders.OrderData.AveragePrice
+  nameWithType: OrderData.AveragePrice
+- uid: Primary.Data.Orders.OrderData.AveragePrice*
+  name: AveragePrice
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_AveragePrice_
+  commentId: Overload:Primary.Data.Orders.OrderData.AveragePrice
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.AveragePrice
+  nameWithType: OrderData.AveragePrice
+- uid: Primary.Data.Orders.OrderData.ClientOrderId
+  name: ClientOrderId
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_ClientOrderId
+  commentId: P:Primary.Data.Orders.OrderData.ClientOrderId
+  fullName: Primary.Data.Orders.OrderData.ClientOrderId
+  nameWithType: OrderData.ClientOrderId
+- uid: Primary.Data.Orders.OrderData.ClientOrderId*
+  name: ClientOrderId
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_ClientOrderId_
+  commentId: Overload:Primary.Data.Orders.OrderData.ClientOrderId
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.ClientOrderId
+  nameWithType: OrderData.ClientOrderId
+- uid: Primary.Data.Orders.OrderData.CumulativeQuantity
+  name: CumulativeQuantity
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_CumulativeQuantity
+  commentId: P:Primary.Data.Orders.OrderData.CumulativeQuantity
+  fullName: Primary.Data.Orders.OrderData.CumulativeQuantity
+  nameWithType: OrderData.CumulativeQuantity
+- uid: Primary.Data.Orders.OrderData.CumulativeQuantity*
+  name: CumulativeQuantity
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_CumulativeQuantity_
+  commentId: Overload:Primary.Data.Orders.OrderData.CumulativeQuantity
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.CumulativeQuantity
+  nameWithType: OrderData.CumulativeQuantity
+- uid: Primary.Data.Orders.OrderData.ExecutionId
+  name: ExecutionId
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_ExecutionId
+  commentId: P:Primary.Data.Orders.OrderData.ExecutionId
+  fullName: Primary.Data.Orders.OrderData.ExecutionId
+  nameWithType: OrderData.ExecutionId
+- uid: Primary.Data.Orders.OrderData.ExecutionId*
+  name: ExecutionId
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_ExecutionId_
+  commentId: Overload:Primary.Data.Orders.OrderData.ExecutionId
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.ExecutionId
+  nameWithType: OrderData.ExecutionId
+- uid: Primary.Data.Orders.OrderData.LastPrice
+  name: LastPrice
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_LastPrice
+  commentId: P:Primary.Data.Orders.OrderData.LastPrice
+  fullName: Primary.Data.Orders.OrderData.LastPrice
+  nameWithType: OrderData.LastPrice
+- uid: Primary.Data.Orders.OrderData.LastPrice*
+  name: LastPrice
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_LastPrice_
+  commentId: Overload:Primary.Data.Orders.OrderData.LastPrice
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.LastPrice
+  nameWithType: OrderData.LastPrice
+- uid: Primary.Data.Orders.OrderData.LastQuantity
+  name: LastQuantity
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_LastQuantity
+  commentId: P:Primary.Data.Orders.OrderData.LastQuantity
+  fullName: Primary.Data.Orders.OrderData.LastQuantity
+  nameWithType: OrderData.LastQuantity
+- uid: Primary.Data.Orders.OrderData.LastQuantity*
+  name: LastQuantity
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_LastQuantity_
+  commentId: Overload:Primary.Data.Orders.OrderData.LastQuantity
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.LastQuantity
+  nameWithType: OrderData.LastQuantity
+- uid: Primary.Data.Orders.OrderData.LeavesQuantity
+  name: LeavesQuantity
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_LeavesQuantity
+  commentId: P:Primary.Data.Orders.OrderData.LeavesQuantity
+  fullName: Primary.Data.Orders.OrderData.LeavesQuantity
+  nameWithType: OrderData.LeavesQuantity
+- uid: Primary.Data.Orders.OrderData.LeavesQuantity*
+  name: LeavesQuantity
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_LeavesQuantity_
+  commentId: Overload:Primary.Data.Orders.OrderData.LeavesQuantity
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.LeavesQuantity
+  nameWithType: OrderData.LeavesQuantity
+- uid: Primary.Data.Orders.OrderData.OrderId
+  name: OrderId
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_OrderId
+  commentId: P:Primary.Data.Orders.OrderData.OrderId
+  fullName: Primary.Data.Orders.OrderData.OrderId
+  nameWithType: OrderData.OrderId
+- uid: Primary.Data.Orders.OrderData.OrderId*
+  name: OrderId
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_OrderId_
+  commentId: Overload:Primary.Data.Orders.OrderData.OrderId
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.OrderId
+  nameWithType: OrderData.OrderId
+- uid: Primary.Data.Orders.OrderData.TransactionTime
+  name: TransactionTime
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_TransactionTime
+  commentId: P:Primary.Data.Orders.OrderData.TransactionTime
+  fullName: Primary.Data.Orders.OrderData.TransactionTime
+  nameWithType: OrderData.TransactionTime
+- uid: Primary.Data.Orders.OrderData.TransactionTime*
+  name: TransactionTime
+  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_TransactionTime_
+  commentId: Overload:Primary.Data.Orders.OrderData.TransactionTime
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderData.TransactionTime
+  nameWithType: OrderData.TransactionTime
 - uid: Primary.Data.Orders.OrderExpiration
   name: OrderExpiration
   href: api/Primary.Data.Orders.OrderExpiration.html
@@ -664,6 +861,12 @@ references:
   commentId: F:Primary.Data.Orders.OrderStatus.New
   fullName: Primary.Data.Orders.OrderStatus.New
   nameWithType: OrderStatus.New
+- uid: Primary.Data.Orders.OrderStatus.PartiallyFilled
+  name: PartiallyFilled
+  href: api/Primary.Data.Orders.OrderStatus.html#Primary_Data_Orders_OrderStatus_PartiallyFilled
+  commentId: F:Primary.Data.Orders.OrderStatus.PartiallyFilled
+  fullName: Primary.Data.Orders.OrderStatus.PartiallyFilled
+  nameWithType: OrderStatus.PartiallyFilled
 - uid: Primary.Data.Orders.OrderStatus.PendingNew
   name: PendingNew
   href: api/Primary.Data.Orders.OrderStatus.html#Primary_Data_Orders_OrderStatus_PendingNew
@@ -758,68 +961,154 @@ references:
   commentId: T:Primary.MarketDataWebSocket
   fullName: Primary.MarketDataWebSocket
   nameWithType: MarketDataWebSocket
-- uid: Primary.MarketDataWebSocket.CancelToken
+- uid: Primary.Net
+  name: Primary.Net
+  href: api/Primary.Net.html
+  commentId: N:Primary.Net
+  fullName: Primary.Net
+  nameWithType: Primary.Net
+- uid: Primary.Net.WebSocket`2
+  name: WebSocket<TRequest, TResponse>
+  href: api/Primary.Net.WebSocket-2.html
+  commentId: T:Primary.Net.WebSocket`2
+  name.vb: WebSocket(Of TRequest, TResponse)
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse)
+  nameWithType: WebSocket<TRequest, TResponse>
+  nameWithType.vb: WebSocket(Of TRequest, TResponse)
+- uid: Primary.Net.WebSocket`2.CancelToken
   name: CancelToken
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_CancelToken
-  commentId: P:Primary.MarketDataWebSocket.CancelToken
-  fullName: Primary.MarketDataWebSocket.CancelToken
-  nameWithType: MarketDataWebSocket.CancelToken
-- uid: Primary.MarketDataWebSocket.CancelToken*
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_CancelToken
+  commentId: P:Primary.Net.WebSocket`2.CancelToken
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.CancelToken
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).CancelToken
+  nameWithType: WebSocket<TRequest, TResponse>.CancelToken
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).CancelToken
+- uid: Primary.Net.WebSocket`2.CancelToken*
   name: CancelToken
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_CancelToken_
-  commentId: Overload:Primary.MarketDataWebSocket.CancelToken
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_CancelToken_
+  commentId: Overload:Primary.Net.WebSocket`2.CancelToken
   isSpec: "True"
-  fullName: Primary.MarketDataWebSocket.CancelToken
-  nameWithType: MarketDataWebSocket.CancelToken
-- uid: Primary.MarketDataWebSocket.Dispose
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.CancelToken
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).CancelToken
+  nameWithType: WebSocket<TRequest, TResponse>.CancelToken
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).CancelToken
+- uid: Primary.Net.WebSocket`2.Dispose
   name: Dispose()
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_Dispose
-  commentId: M:Primary.MarketDataWebSocket.Dispose
-  fullName: Primary.MarketDataWebSocket.Dispose()
-  nameWithType: MarketDataWebSocket.Dispose()
-- uid: Primary.MarketDataWebSocket.Dispose*
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_Dispose
+  commentId: M:Primary.Net.WebSocket`2.Dispose
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.Dispose()
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).Dispose()
+  nameWithType: WebSocket<TRequest, TResponse>.Dispose()
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).Dispose()
+- uid: Primary.Net.WebSocket`2.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_Dispose_System_Boolean_
+  commentId: M:Primary.Net.WebSocket`2.Dispose(System.Boolean)
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.Dispose(System.Boolean)
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).Dispose(System.Boolean)
+  nameWithType: WebSocket<TRequest, TResponse>.Dispose(Boolean)
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).Dispose(Boolean)
+- uid: Primary.Net.WebSocket`2.Dispose*
   name: Dispose
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_Dispose_
-  commentId: Overload:Primary.MarketDataWebSocket.Dispose
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_Dispose_
+  commentId: Overload:Primary.Net.WebSocket`2.Dispose
   isSpec: "True"
-  fullName: Primary.MarketDataWebSocket.Dispose
-  nameWithType: MarketDataWebSocket.Dispose
-- uid: Primary.MarketDataWebSocket.IsRunning
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.Dispose
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).Dispose
+  nameWithType: WebSocket<TRequest, TResponse>.Dispose
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).Dispose
+- uid: Primary.Net.WebSocket`2.IsRunning
   name: IsRunning
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_IsRunning
-  commentId: P:Primary.MarketDataWebSocket.IsRunning
-  fullName: Primary.MarketDataWebSocket.IsRunning
-  nameWithType: MarketDataWebSocket.IsRunning
-- uid: Primary.MarketDataWebSocket.IsRunning*
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_IsRunning
+  commentId: P:Primary.Net.WebSocket`2.IsRunning
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.IsRunning
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).IsRunning
+  nameWithType: WebSocket<TRequest, TResponse>.IsRunning
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).IsRunning
+- uid: Primary.Net.WebSocket`2.IsRunning*
   name: IsRunning
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_IsRunning_
-  commentId: Overload:Primary.MarketDataWebSocket.IsRunning
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_IsRunning_
+  commentId: Overload:Primary.Net.WebSocket`2.IsRunning
   isSpec: "True"
-  fullName: Primary.MarketDataWebSocket.IsRunning
-  nameWithType: MarketDataWebSocket.IsRunning
-- uid: Primary.MarketDataWebSocket.OnMarketData
-  name: OnMarketData
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_OnMarketData
-  commentId: P:Primary.MarketDataWebSocket.OnMarketData
-  fullName: Primary.MarketDataWebSocket.OnMarketData
-  nameWithType: MarketDataWebSocket.OnMarketData
-- uid: Primary.MarketDataWebSocket.OnMarketData*
-  name: OnMarketData
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_OnMarketData_
-  commentId: Overload:Primary.MarketDataWebSocket.OnMarketData
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.IsRunning
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).IsRunning
+  nameWithType: WebSocket<TRequest, TResponse>.IsRunning
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).IsRunning
+- uid: Primary.Net.WebSocket`2.OnData
+  name: OnData
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_OnData
+  commentId: P:Primary.Net.WebSocket`2.OnData
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.OnData
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).OnData
+  nameWithType: WebSocket<TRequest, TResponse>.OnData
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).OnData
+- uid: Primary.Net.WebSocket`2.OnData*
+  name: OnData
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_OnData_
+  commentId: Overload:Primary.Net.WebSocket`2.OnData
   isSpec: "True"
-  fullName: Primary.MarketDataWebSocket.OnMarketData
-  nameWithType: MarketDataWebSocket.OnMarketData
-- uid: Primary.MarketDataWebSocket.Start
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.OnData
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).OnData
+  nameWithType: WebSocket<TRequest, TResponse>.OnData
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).OnData
+- uid: Primary.Net.WebSocket`2.Start
   name: Start()
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_Start
-  commentId: M:Primary.MarketDataWebSocket.Start
-  fullName: Primary.MarketDataWebSocket.Start()
-  nameWithType: MarketDataWebSocket.Start()
-- uid: Primary.MarketDataWebSocket.Start*
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_Start
+  commentId: M:Primary.Net.WebSocket`2.Start
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.Start()
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).Start()
+  nameWithType: WebSocket<TRequest, TResponse>.Start()
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).Start()
+- uid: Primary.Net.WebSocket`2.Start*
   name: Start
-  href: api/Primary.MarketDataWebSocket.html#Primary_MarketDataWebSocket_Start_
-  commentId: Overload:Primary.MarketDataWebSocket.Start
+  href: api/Primary.Net.WebSocket-2.html#Primary_Net_WebSocket_2_Start_
+  commentId: Overload:Primary.Net.WebSocket`2.Start
   isSpec: "True"
-  fullName: Primary.MarketDataWebSocket.Start
-  nameWithType: MarketDataWebSocket.Start
+  fullName: Primary.Net.WebSocket<TRequest, TResponse>.Start
+  fullName.vb: Primary.Net.WebSocket(Of TRequest, TResponse).Start
+  nameWithType: WebSocket<TRequest, TResponse>.Start
+  nameWithType.vb: WebSocket(Of TRequest, TResponse).Start
+- uid: Primary.OrderDataWebSocket
+  name: OrderDataWebSocket
+  href: api/Primary.OrderDataWebSocket.html
+  commentId: T:Primary.OrderDataWebSocket
+  fullName: Primary.OrderDataWebSocket
+  nameWithType: OrderDataWebSocket
+- uid: Primary.Request
+  name: Request
+  href: api/Primary.Request.html
+  commentId: T:Primary.Request
+  fullName: Primary.Request
+  nameWithType: Request
+- uid: Primary.Request.Accounts
+  name: Accounts
+  href: api/Primary.Request.html#Primary_Request_Accounts
+  commentId: F:Primary.Request.Accounts
+  fullName: Primary.Request.Accounts
+  nameWithType: Request.Accounts
+- uid: Primary.Request.Type
+  name: Type
+  href: api/Primary.Request.html#Primary_Request_Type
+  commentId: P:Primary.Request.Type
+  fullName: Primary.Request.Type
+  nameWithType: Request.Type
+- uid: Primary.Request.Type*
+  name: Type
+  href: api/Primary.Request.html#Primary_Request_Type_
+  commentId: Overload:Primary.Request.Type
+  isSpec: "True"
+  fullName: Primary.Request.Type
+  nameWithType: Request.Type
+- uid: Primary.Response
+  name: Response
+  href: api/Primary.Response.html
+  commentId: T:Primary.Response
+  fullName: Primary.Response
+  nameWithType: Response
+- uid: Primary.Response.OrderReport
+  name: OrderReport
+  href: api/Primary.Response.html#Primary_Response_OrderReport
+  commentId: F:Primary.Response.OrderReport
+  fullName: Primary.Response.OrderReport
+  nameWithType: Response.OrderReport
