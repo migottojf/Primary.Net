@@ -41,11 +41,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Primary.Data.MarketData.Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Primary.Data.MarketData.Entries.html",
+          "hash": "NFID9iT0FumqPEIEb9OS2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Primary.Data.MarketData.yml",
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.MarketData.html",
-          "hash": "oz9e0QRRgOljfP7cB8uIsA=="
+          "hash": "wHpcpmMKmVUnvvIILcFoKw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Primary.Data.html",
-          "hash": "EwlaFAn+gG8rX+wIQg7sFQ=="
+          "hash": "d+dyMziYQbDXviOBG6ol3Q=="
         }
       },
       "is_incremental": false,
@@ -297,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "IHUm6ELterPkh3o1DhJ/sA=="
+          "hash": "LpVEKb1xBFNcJ8V+UzkVKg=="
         }
       },
       "is_incremental": false,
@@ -348,7 +360,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 23,
+          "total_file_count": 24,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
