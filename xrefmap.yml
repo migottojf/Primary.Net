@@ -540,6 +540,19 @@ references:
   isSpec: "True"
   fullName: Primary.Data.MarketData.Instrument
   nameWithType: MarketData.Instrument
+- uid: Primary.Data.MarketData.Timestamp
+  name: Timestamp
+  href: api/Primary.Data.MarketData.html#Primary_Data_MarketData_Timestamp
+  commentId: P:Primary.Data.MarketData.Timestamp
+  fullName: Primary.Data.MarketData.Timestamp
+  nameWithType: MarketData.Timestamp
+- uid: Primary.Data.MarketData.Timestamp*
+  name: Timestamp
+  href: api/Primary.Data.MarketData.html#Primary_Data_MarketData_Timestamp_
+  commentId: Overload:Primary.Data.MarketData.Timestamp
+  isSpec: "True"
+  fullName: Primary.Data.MarketData.Timestamp
+  nameWithType: MarketData.Timestamp
 - uid: Primary.Data.MarketDataInfo
   name: MarketDataInfo
   href: api/Primary.Data.MarketDataInfo.html
