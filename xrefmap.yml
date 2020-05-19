@@ -615,19 +615,6 @@ references:
   isSpec: "True"
   fullName: Primary.Data.Order.CancelPrevious
   nameWithType: Order.CancelPrevious
-- uid: Primary.Data.Order.ClientId
-  name: ClientId
-  href: api/Primary.Data.Order.html#Primary_Data_Order_ClientId
-  commentId: P:Primary.Data.Order.ClientId
-  fullName: Primary.Data.Order.ClientId
-  nameWithType: Order.ClientId
-- uid: Primary.Data.Order.ClientId*
-  name: ClientId
-  href: api/Primary.Data.Order.html#Primary_Data_Order_ClientId_
-  commentId: Overload:Primary.Data.Order.ClientId
-  isSpec: "True"
-  fullName: Primary.Data.Order.ClientId
-  nameWithType: Order.ClientId
 - uid: Primary.Data.Order.DisplayQuantity
   name: DisplayQuantity
   href: api/Primary.Data.Order.html#Primary_Data_Order_DisplayQuantity
@@ -706,19 +693,6 @@ references:
   isSpec: "True"
   fullName: Primary.Data.Order.Price
   nameWithType: Order.Price
-- uid: Primary.Data.Order.Proprietary
-  name: Proprietary
-  href: api/Primary.Data.Order.html#Primary_Data_Order_Proprietary
-  commentId: P:Primary.Data.Order.Proprietary
-  fullName: Primary.Data.Order.Proprietary
-  nameWithType: Order.Proprietary
-- uid: Primary.Data.Order.Proprietary*
-  name: Proprietary
-  href: api/Primary.Data.Order.html#Primary_Data_Order_Proprietary_
-  commentId: Overload:Primary.Data.Order.Proprietary
-  isSpec: "True"
-  fullName: Primary.Data.Order.Proprietary
-  nameWithType: Order.Proprietary
 - uid: Primary.Data.Order.Quantity
   name: Quantity
   href: api/Primary.Data.Order.html#Primary_Data_Order_Quantity
@@ -841,19 +815,6 @@ references:
   isSpec: "True"
   fullName: Primary.Data.Orders.OrderData.AveragePrice
   nameWithType: OrderData.AveragePrice
-- uid: Primary.Data.Orders.OrderData.ClientOrderId
-  name: ClientOrderId
-  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_ClientOrderId
-  commentId: P:Primary.Data.Orders.OrderData.ClientOrderId
-  fullName: Primary.Data.Orders.OrderData.ClientOrderId
-  nameWithType: OrderData.ClientOrderId
-- uid: Primary.Data.Orders.OrderData.ClientOrderId*
-  name: ClientOrderId
-  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_ClientOrderId_
-  commentId: Overload:Primary.Data.Orders.OrderData.ClientOrderId
-  isSpec: "True"
-  fullName: Primary.Data.Orders.OrderData.ClientOrderId
-  nameWithType: OrderData.ClientOrderId
 - uid: Primary.Data.Orders.OrderData.CumulativeQuantity
   name: CumulativeQuantity
   href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_CumulativeQuantity
@@ -919,19 +880,6 @@ references:
   isSpec: "True"
   fullName: Primary.Data.Orders.OrderData.LeavesQuantity
   nameWithType: OrderData.LeavesQuantity
-- uid: Primary.Data.Orders.OrderData.OrderId
-  name: OrderId
-  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_OrderId
-  commentId: P:Primary.Data.Orders.OrderData.OrderId
-  fullName: Primary.Data.Orders.OrderData.OrderId
-  nameWithType: OrderData.OrderId
-- uid: Primary.Data.Orders.OrderData.OrderId*
-  name: OrderId
-  href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_OrderId_
-  commentId: Overload:Primary.Data.Orders.OrderData.OrderId
-  isSpec: "True"
-  fullName: Primary.Data.Orders.OrderData.OrderId
-  nameWithType: OrderData.OrderId
 - uid: Primary.Data.Orders.OrderData.TransactionTime
   name: TransactionTime
   href: api/Primary.Data.Orders.OrderData.html#Primary_Data_Orders_OrderData_TransactionTime
@@ -994,6 +942,32 @@ references:
   isSpec: "True"
   fullName: Primary.Data.Orders.OrderId.ClientId
   nameWithType: OrderId.ClientId
+- uid: Primary.Data.Orders.OrderId.ClientOrderId
+  name: ClientOrderId
+  href: api/Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_ClientOrderId
+  commentId: P:Primary.Data.Orders.OrderId.ClientOrderId
+  fullName: Primary.Data.Orders.OrderId.ClientOrderId
+  nameWithType: OrderId.ClientOrderId
+- uid: Primary.Data.Orders.OrderId.ClientOrderId*
+  name: ClientOrderId
+  href: api/Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_ClientOrderId_
+  commentId: Overload:Primary.Data.Orders.OrderId.ClientOrderId
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderId.ClientOrderId
+  nameWithType: OrderId.ClientOrderId
+- uid: Primary.Data.Orders.OrderId.Id
+  name: Id
+  href: api/Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_Id
+  commentId: P:Primary.Data.Orders.OrderId.Id
+  fullName: Primary.Data.Orders.OrderId.Id
+  nameWithType: OrderId.Id
+- uid: Primary.Data.Orders.OrderId.Id*
+  name: Id
+  href: api/Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_Id_
+  commentId: Overload:Primary.Data.Orders.OrderId.Id
+  isSpec: "True"
+  fullName: Primary.Data.Orders.OrderId.Id
+  nameWithType: OrderId.Id
 - uid: Primary.Data.Orders.OrderId.Proprietary
   name: Proprietary
   href: api/Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_Proprietary
@@ -1055,6 +1029,12 @@ references:
   commentId: F:Primary.Data.Orders.OrderStatus.PartiallyFilled
   fullName: Primary.Data.Orders.OrderStatus.PartiallyFilled
   nameWithType: OrderStatus.PartiallyFilled
+- uid: Primary.Data.Orders.OrderStatus.PendingCancel
+  name: PendingCancel
+  href: api/Primary.Data.Orders.OrderStatus.html#Primary_Data_Orders_OrderStatus_PendingCancel
+  commentId: F:Primary.Data.Orders.OrderStatus.PendingCancel
+  fullName: Primary.Data.Orders.OrderStatus.PendingCancel
+  nameWithType: OrderStatus.PendingCancel
 - uid: Primary.Data.Orders.OrderStatus.PendingNew
   name: PendingNew
   href: api/Primary.Data.Orders.OrderStatus.html#Primary_Data_Orders_OrderStatus_PendingNew
