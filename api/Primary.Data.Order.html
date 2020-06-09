@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Order
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.54.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -73,25 +73,20 @@
   
   <h1 id="Primary_Data_Order" data-uid="Primary.Data.Order" class="text-break">Class Order
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Has all the necesary information to submit an order.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><a class="xref" href="Primary.Data.Orders.OrderId.html">OrderId</a></div>
     <div class="level2"><span class="xref">Order</span></div>
-      <div class="level3"><a class="xref" href="Primary.Data.Orders.OrderData.html">OrderData</a></div>
+      <div class="level3"><a class="xref" href="Primary.Data.Orders.OrderStatus.html">OrderStatus</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_ClientId">OrderId.ClientId</a>
-    </div>
-    <div>
       <a class="xref" href="Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_Proprietary">OrderId.Proprietary</a>
-    </div>
-    <div>
-      <a class="xref" href="Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_Id">OrderId.Id</a>
     </div>
     <div>
       <a class="xref" href="Primary.Data.Orders.OrderId.html#Primary_Data_Orders_OrderId_ClientOrderId">OrderId.ClientOrderId</a>
@@ -110,7 +105,7 @@
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_CancelPrevious.md&amp;value=---%0Auid%3A%20Primary.Data.Order.CancelPrevious%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L10">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L13">View Source</a>
   </span>
   <a id="Primary_Data_Order_CancelPrevious_" data-uid="Primary.Data.Order.CancelPrevious*"></a>
   <h4 id="Primary_Data_Order_CancelPrevious" data-uid="Primary.Data.Order.CancelPrevious">CancelPrevious</h4>
@@ -142,7 +137,7 @@ public bool CancelPrevious { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_DisplayQuantity.md&amp;value=---%0Auid%3A%20Primary.Data.Order.DisplayQuantity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L18">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L21">View Source</a>
   </span>
   <a id="Primary_Data_Order_DisplayQuantity_" data-uid="Primary.Data.Order.DisplayQuantity*"></a>
   <h4 id="Primary_Data_Order_DisplayQuantity" data-uid="Primary.Data.Order.DisplayQuantity">DisplayQuantity</h4>
@@ -174,7 +169,7 @@ public uint DisplayQuantity { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Expiration.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Expiration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L50">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L45">View Source</a>
   </span>
   <a id="Primary_Data_Order_Expiration_" data-uid="Primary.Data.Order.Expiration*"></a>
   <h4 id="Primary_Data_Order_Expiration" data-uid="Primary.Data.Order.Expiration">Expiration</h4>
@@ -184,7 +179,7 @@ public uint DisplayQuantity { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;timeInForce&quot;)]
-public OrderExpiration Expiration { get; set; }</code></pre>
+public Expiration Expiration { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,7 +191,7 @@ public OrderExpiration Expiration { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Primary.Data.Orders.OrderExpiration.html">OrderExpiration</a></td>
+        <td><a class="xref" href="Primary.Data.Orders.Expiration.html">Expiration</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -206,7 +201,7 @@ public OrderExpiration Expiration { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_ExpirationDate.md&amp;value=---%0Auid%3A%20Primary.Data.Order.ExpirationDate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L55">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L50">View Source</a>
   </span>
   <a id="Primary_Data_Order_ExpirationDate_" data-uid="Primary.Data.Order.ExpirationDate*"></a>
   <h4 id="Primary_Data_Order_ExpirationDate" data-uid="Primary.Data.Order.ExpirationDate">ExpirationDate</h4>
@@ -241,7 +236,7 @@ public DateTime ExpirationDate { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Iceberg.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Iceberg%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L14">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L17">View Source</a>
   </span>
   <a id="Primary_Data_Order_Iceberg_" data-uid="Primary.Data.Order.Iceberg*"></a>
   <h4 id="Primary_Data_Order_Iceberg" data-uid="Primary.Data.Order.Iceberg">Iceberg</h4>
@@ -273,7 +268,7 @@ public bool Iceberg { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Instrument.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Instrument%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L30">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L25">View Source</a>
   </span>
   <a id="Primary_Data_Order_Instrument_" data-uid="Primary.Data.Order.Instrument*"></a>
   <h4 id="Primary_Data_Order_Instrument" data-uid="Primary.Data.Order.Instrument">Instrument</h4>
@@ -305,7 +300,7 @@ public Instrument Instrument { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Price.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Price%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L34">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L29">View Source</a>
   </span>
   <a id="Primary_Data_Order_Price_" data-uid="Primary.Data.Order.Price*"></a>
   <h4 id="Primary_Data_Order_Price" data-uid="Primary.Data.Order.Price">Price</h4>
@@ -337,7 +332,7 @@ public decimal? Price { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Quantity.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Quantity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L38">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L33">View Source</a>
   </span>
   <a id="Primary_Data_Order_Quantity_" data-uid="Primary.Data.Order.Quantity*"></a>
   <h4 id="Primary_Data_Order_Quantity" data-uid="Primary.Data.Order.Quantity">Quantity</h4>
@@ -369,7 +364,7 @@ public int Quantity { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Side.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Side%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L46">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L41">View Source</a>
   </span>
   <a id="Primary_Data_Order_Side_" data-uid="Primary.Data.Order.Side*"></a>
   <h4 id="Primary_Data_Order_Side" data-uid="Primary.Data.Order.Side">Side</h4>
@@ -379,7 +374,7 @@ public int Quantity { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;side&quot;)]
-public OrderSide Side { get; set; }</code></pre>
+public Side Side { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -391,71 +386,7 @@ public OrderSide Side { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Primary.Data.Orders.OrderSide.html">OrderSide</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Status.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L22">View Source</a>
-  </span>
-  <a id="Primary_Data_Order_Status_" data-uid="Primary.Data.Order.Status*"></a>
-  <h4 id="Primary_Data_Order_Status" data-uid="Primary.Data.Order.Status">Status</h4>
-  <div class="markdown level1 summary"><p>Order status.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;status&quot;)]
-public OrderStatus Status { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Primary.Data.Orders.OrderStatus.html">OrderStatus</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_StatusText.md&amp;value=---%0Auid%3A%20Primary.Data.Order.StatusText%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L26">View Source</a>
-  </span>
-  <a id="Primary_Data_Order_StatusText_" data-uid="Primary.Data.Order.StatusText*"></a>
-  <h4 id="Primary_Data_Order_StatusText" data-uid="Primary.Data.Order.StatusText">StatusText</h4>
-  <div class="markdown level1 summary"><p>More information about the order status.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;text&quot;)]
-public string StatusText { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Primary.Data.Orders.Side.html">Side</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -465,7 +396,7 @@ public string StatusText { get; set; }</code></pre>
     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order_Type.md&amp;value=---%0Auid%3A%20Primary.Data.Order.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L42">View Source</a>
+    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L37">View Source</a>
   </span>
   <a id="Primary_Data_Order_Type_" data-uid="Primary.Data.Order.Type*"></a>
   <h4 id="Primary_Data_Order_Type" data-uid="Primary.Data.Order.Type">Type</h4>
@@ -475,7 +406,7 @@ public string StatusText { get; set; }</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;ordType&quot;)]
-public OrderType Type { get; set; }</code></pre>
+public Type Type { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -487,7 +418,7 @@ public OrderType Type { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Primary.Data.Orders.OrderType.html">OrderType</a></td>
+        <td><a class="xref" href="Primary.Data.Orders.Type.html">Type</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -503,7 +434,7 @@ public OrderType Type { get; set; }</code></pre>
                     <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Order.md&amp;value=---%0Auid%3A%20Primary.Data.Order%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L7" class="contribution-link">View Source</a>
+                    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Order.cs/#L10" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

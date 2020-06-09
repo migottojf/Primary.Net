@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum OrderExpiration
+    <title>Enum Status
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum OrderExpiration
+    <meta name="title" content="Enum Status
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.54.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -68,19 +68,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Primary.Data.Orders.OrderExpiration">
+            <article class="content wrap" id="_content" data-uid="Primary.Data.Orders.Status">
   
   
-  <h1 id="Primary_Data_Orders_OrderExpiration" data-uid="Primary.Data.Orders.OrderExpiration" class="text-break">Enum OrderExpiration
+  <h1 id="Primary_Data_Orders_Status" data-uid="Primary.Data.Orders.Status" class="text-break">Enum Status
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Primary.Data.Orders.html">Primary.Data.Orders</a></h6>
   <h6><strong>Assembly</strong>: Primary.dll</h6>
-  <h5 id="Primary_Data_Orders_OrderExpiration_syntax">Syntax</h5>
+  <h5 id="Primary_Data_Orders_Status_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(OrderExpirationJsonSerializer))]
-public enum OrderExpiration</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(StatusJsonSerializer))]
+public enum Status</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -93,23 +93,38 @@ public enum OrderExpiration</code></pre>
     <thead>
     <tbody>
       <tr>
-        <td id="Primary_Data_Orders_OrderExpiration_Day">Day</td>
-        <td><p>Order valid during the day. It will expires when the market closes.</p>
+        <td id="Primary_Data_Orders_Status_Cancelled">Cancelled</td>
+        <td><p>The order was cancelled.</p>
 </td>
       </tr>
       <tr>
-        <td id="Primary_Data_Orders_OrderExpiration_FillOrKill">FillOrKill</td>
-        <td><p>Fill or kill.</p>
+        <td id="Primary_Data_Orders_Status_Filled">Filled</td>
+        <td><p>The order was filled.</p>
 </td>
       </tr>
       <tr>
-        <td id="Primary_Data_Orders_OrderExpiration_GoodTillDate">GoodTillDate</td>
-        <td><p>Good Till Date (Must send ExpirationDate field in the Order).</p>
+        <td id="Primary_Data_Orders_Status_New">New</td>
+        <td><p>The order was successfully submitted.</p>
 </td>
       </tr>
       <tr>
-        <td id="Primary_Data_Orders_OrderExpiration_ImmediateOrCancel">ImmediateOrCancel</td>
-        <td><p>Immediate or cancel.</p>
+        <td id="Primary_Data_Orders_Status_PartiallyFilled">PartiallyFilled</td>
+        <td><p>The order was partially filled.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Primary_Data_Orders_Status_PendingCancel">PendingCancel</td>
+        <td><p>The order was cancelled, but it is still being processed.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Primary_Data_Orders_Status_PendingNew">PendingNew</td>
+        <td><p>The order was submitted, but it is still being processed.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Primary_Data_Orders_Status_Rejected">Rejected</td>
+        <td><p>The order was rejected.</p>
 </td>
       </tr>
     </tbody>
@@ -122,10 +137,10 @@ public enum OrderExpiration</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Orders_OrderExpiration.md&amp;value=---%0Auid%3A%20Primary.Data.Orders.OrderExpiration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/naicigam/Primary.Net/new/master/apiSpec/new?filename=Primary_Data_Orders_Status.md&amp;value=---%0Auid%3A%20Primary.Data.Orders.Status%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Enums.cs/#L20" class="contribution-link">View Source</a>
+                    <a href="https://github.com/naicigam/Primary.Net/blob/master/Primary/Data/Orders/Enums.cs/#L36" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
